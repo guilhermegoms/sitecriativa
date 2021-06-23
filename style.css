@@ -15,7 +15,6 @@ body{
     align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center; 
     justify-content: top; 
     min-height: 100vh;
     min-width: 100vh;
@@ -27,15 +26,31 @@ body{
 
 #principal{
     width: 80%;
-    align-items: center;
+    
+    
 }
 #menu{
     background:cornsilk;
-    color: white;
-    padding: 20px;
-    width: 80%;
-    align-items:center;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+  
 }
+#menu a{
+    color: #4b566a;
+    text-decoration: none;
+    padding-right: 9%;
+    padding-left: 9%;
+}
+.cabecalho{
+    
+   
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .text{
 
     align-items: center;
@@ -45,10 +60,34 @@ body{
     margin-left: 50%;
     
 }
-#menu a {
-
-    color: #4b566a;
-    text-decoration: none;
-    padding-right: 30px;
-    
-}
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#5F9EA0;
+  }
+  
+  #divBusca img{
+    float:left;
+  }
